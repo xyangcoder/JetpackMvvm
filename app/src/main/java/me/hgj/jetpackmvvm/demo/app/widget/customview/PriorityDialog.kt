@@ -1,4 +1,4 @@
-package me.hgj.jetpackmvvm.demo.app.weight.customview
+package me.hgj.jetpackmvvm.demo.app.widget.customview
 
 import android.app.Dialog
 import android.content.Context
@@ -10,7 +10,7 @@ import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.blankj.utilcode.util.ConvertUtils
 import me.hgj.jetpackmvvm.demo.R
-import me.hgj.jetpackmvvm.demo.app.weight.recyclerview.GridDividerItemDecoration
+import me.hgj.jetpackmvvm.demo.app.widget.recyclerview.GridDividerItemDecoration
 import me.hgj.jetpackmvvm.demo.data.model.enums.TodoType
 import me.hgj.jetpackmvvm.demo.ui.adapter.PriorityAdapter
 

@@ -10,8 +10,8 @@ import me.hgj.jetpackmvvm.demo.R
 import me.hgj.jetpackmvvm.demo.app.base.BaseActivity
 import me.hgj.jetpackmvvm.demo.app.util.CacheUtil
 import me.hgj.jetpackmvvm.demo.app.util.SettingUtil
-import me.hgj.jetpackmvvm.demo.app.weight.banner.WelcomeBannerAdapter
-import me.hgj.jetpackmvvm.demo.app.weight.banner.WelcomeBannerViewHolder
+import me.hgj.jetpackmvvm.demo.app.widget.banner.WelcomeBannerAdapter
+import me.hgj.jetpackmvvm.demo.app.widget.banner.WelcomeBannerViewHolder
 import me.hgj.jetpackmvvm.demo.databinding.ActivityWelcomeBinding
 import me.hgj.jetpackmvvm.ext.view.gone
 import me.hgj.jetpackmvvm.ext.view.visible

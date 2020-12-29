@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package me.hgj.jetpackmvvm.demo.app.weight.preference;
+package me.hgj.jetpackmvvm.demo.app.widget.preference;
 
 import android.annotation.SuppressLint;
 import android.content.Context;

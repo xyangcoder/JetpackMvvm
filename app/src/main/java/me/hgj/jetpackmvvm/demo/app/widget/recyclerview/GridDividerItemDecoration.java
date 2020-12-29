@@ -1,4 +1,4 @@
-package me.hgj.jetpackmvvm.demo.app.weight.recyclerview;
+package me.hgj.jetpackmvvm.demo.app.widget.recyclerview;
 
 import android.content.Context;
 import android.graphics.Canvas;

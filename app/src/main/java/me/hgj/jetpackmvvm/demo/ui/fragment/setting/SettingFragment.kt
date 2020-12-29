@@ -27,9 +27,9 @@ import me.hgj.jetpackmvvm.demo.app.util.CacheDataManager
 import me.hgj.jetpackmvvm.demo.app.util.CacheUtil
 import me.hgj.jetpackmvvm.demo.app.util.ColorUtil
 import me.hgj.jetpackmvvm.demo.app.util.SettingUtil
-import me.hgj.jetpackmvvm.demo.app.weight.preference.CheckBoxPreference
-import me.hgj.jetpackmvvm.demo.app.weight.preference.IconPreference
-import me.hgj.jetpackmvvm.demo.app.weight.preference.PreferenceCategory
+import me.hgj.jetpackmvvm.demo.app.widget.preference.CheckBoxPreference
+import me.hgj.jetpackmvvm.demo.app.widget.preference.IconPreference
+import me.hgj.jetpackmvvm.demo.app.widget.preference.PreferenceCategory
 import me.hgj.jetpackmvvm.demo.data.model.bean.BannerResponse
 import me.hgj.jetpackmvvm.ext.getAppViewModel
 import me.hgj.jetpackmvvm.ext.nav

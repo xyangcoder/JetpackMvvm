@@ -1,4 +1,4 @@
-package me.hgj.jetpackmvvm.demo.app.weight.banner
+package me.hgj.jetpackmvvm.demo.app.widget.banner
 
 /**
  * 作者　: hegaojian

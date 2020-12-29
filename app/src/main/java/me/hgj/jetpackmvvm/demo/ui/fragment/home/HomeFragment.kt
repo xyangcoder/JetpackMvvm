@@ -16,10 +16,10 @@ import kotlinx.android.synthetic.main.include_toolbar.*
 import me.hgj.jetpackmvvm.demo.R
 import me.hgj.jetpackmvvm.demo.app.base.BaseFragment
 import me.hgj.jetpackmvvm.demo.app.ext.*
-import me.hgj.jetpackmvvm.demo.app.weight.banner.HomeBannerAdapter
-import me.hgj.jetpackmvvm.demo.app.weight.banner.HomeBannerViewHolder
-import me.hgj.jetpackmvvm.demo.app.weight.recyclerview.DefineLoadMoreView
-import me.hgj.jetpackmvvm.demo.app.weight.recyclerview.SpaceItemDecoration
+import me.hgj.jetpackmvvm.demo.app.widget.banner.HomeBannerAdapter
+import me.hgj.jetpackmvvm.demo.app.widget.banner.HomeBannerViewHolder
+import me.hgj.jetpackmvvm.demo.app.widget.recyclerview.DefineLoadMoreView
+import me.hgj.jetpackmvvm.demo.app.widget.recyclerview.SpaceItemDecoration
 import me.hgj.jetpackmvvm.demo.data.model.bean.BannerResponse
 import me.hgj.jetpackmvvm.demo.data.model.bean.CollectBus
 import me.hgj.jetpackmvvm.demo.databinding.FragmentHomeBinding
@@ -30,7 +30,6 @@ import me.hgj.jetpackmvvm.demo.viewmodel.state.HomeViewModel
 import me.hgj.jetpackmvvm.ext.nav
 import me.hgj.jetpackmvvm.ext.navigateAction
 import me.hgj.jetpackmvvm.ext.parseState
-import splitties.collections.forEachReversedByIndex
 
 /**
  * 作者　: hegaojian

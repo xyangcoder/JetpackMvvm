@@ -1,7 +1,6 @@
 package me.hgj.jetpackmvvm.demo.ui.fragment.todo
 
 import android.os.Bundle
-import android.view.View
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.Observer
 import com.afollestad.materialdialogs.MaterialDialog
@@ -15,16 +14,14 @@ import me.hgj.jetpackmvvm.demo.app.ext.initClose
 import me.hgj.jetpackmvvm.demo.app.ext.showMessage
 import me.hgj.jetpackmvvm.demo.app.util.DatetimeUtil
 import me.hgj.jetpackmvvm.demo.app.util.SettingUtil
-import me.hgj.jetpackmvvm.demo.app.weight.customview.PriorityDialog
+import me.hgj.jetpackmvvm.demo.app.widget.customview.PriorityDialog
 import me.hgj.jetpackmvvm.demo.data.model.bean.TodoResponse
 import me.hgj.jetpackmvvm.demo.data.model.enums.TodoType
 import me.hgj.jetpackmvvm.demo.databinding.FragmentAddtodoBinding
-import me.hgj.jetpackmvvm.demo.generated.callback.OnClickListener
 import me.hgj.jetpackmvvm.demo.viewmodel.request.RequestTodoViewModel
 import me.hgj.jetpackmvvm.demo.viewmodel.state.TodoViewModel
 import me.hgj.jetpackmvvm.ext.nav
 import me.hgj.jetpackmvvm.ext.util.notNull
-import java.lang.ref.WeakReference
 import java.util.*
 
 /**

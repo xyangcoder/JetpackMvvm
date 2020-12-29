@@ -14,7 +14,6 @@ import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.appcompat.widget.Toolbar
 import androidx.constraintlayout.widget.ConstraintLayout
-import androidx.core.view.get
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -31,12 +30,11 @@ import me.hgj.jetpackmvvm.base.appContext
 import me.hgj.jetpackmvvm.demo.R
 import me.hgj.jetpackmvvm.demo.app.network.stateCallback.ListDataUiState
 import me.hgj.jetpackmvvm.demo.app.util.SettingUtil
-import me.hgj.jetpackmvvm.demo.app.weight.loadCallBack.EmptyCallback
-import me.hgj.jetpackmvvm.demo.app.weight.loadCallBack.ErrorCallback
-import me.hgj.jetpackmvvm.demo.app.weight.loadCallBack.LoadingCallback
-import me.hgj.jetpackmvvm.demo.app.weight.recyclerview.DefineLoadMoreView
-import me.hgj.jetpackmvvm.demo.app.weight.viewpager.ScaleTransitionPagerTitleView
-import me.hgj.jetpackmvvm.demo.data.model.bean.ClassifyResponse
+import me.hgj.jetpackmvvm.demo.app.widget.loadCallBack.EmptyCallback
+import me.hgj.jetpackmvvm.demo.app.widget.loadCallBack.ErrorCallback
+import me.hgj.jetpackmvvm.demo.app.widget.loadCallBack.LoadingCallback
+import me.hgj.jetpackmvvm.demo.app.widget.recyclerview.DefineLoadMoreView
+import me.hgj.jetpackmvvm.demo.app.widget.viewpager.ScaleTransitionPagerTitleView
 import me.hgj.jetpackmvvm.demo.ui.fragment.home.HomeFragment
 import me.hgj.jetpackmvvm.demo.ui.fragment.me.MeFragment
 import me.hgj.jetpackmvvm.demo.ui.fragment.project.ProjectFragment

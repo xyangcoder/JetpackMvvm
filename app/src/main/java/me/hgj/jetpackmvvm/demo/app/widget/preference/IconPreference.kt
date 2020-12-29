@@ -1,4 +1,4 @@
-package me.hgj.jetpackmvvm.demo.app.weight.preference
+package me.hgj.jetpackmvvm.demo.app.widget.preference
 
 import android.content.Context
 import android.util.AttributeSet

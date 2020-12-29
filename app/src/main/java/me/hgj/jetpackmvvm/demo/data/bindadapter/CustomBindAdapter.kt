@@ -14,7 +14,7 @@ import com.bumptech.glide.Glide
 import com.bumptech.glide.load.resource.bitmap.CircleCrop
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions
 import com.bumptech.glide.request.RequestOptions
-import me.hgj.jetpackmvvm.demo.app.weight.preference.MyColorCircleView
+import me.hgj.jetpackmvvm.demo.app.widget.preference.MyColorCircleView
 import me.hgj.jetpackmvvm.ext.view.textString
 
 /**

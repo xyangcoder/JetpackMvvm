@@ -1,7 +1,6 @@
-package me.hgj.jetpackmvvm.demo.app.weight.recyclerview
+package me.hgj.jetpackmvvm.demo.app.widget.recyclerview
 
 import android.annotation.SuppressLint
-import com.yanzhenjie.recyclerview.SwipeRecyclerView
 import android.content.Context
 import android.content.res.ColorStateList
 import android.graphics.PorterDuff
@@ -10,10 +9,11 @@ import android.util.Log
 import android.view.Gravity
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
-import android.widget.ProgressBar
 import android.widget.LinearLayout
+import android.widget.ProgressBar
+import android.widget.TextView
 import com.blankj.utilcode.util.ConvertUtils
+import com.yanzhenjie.recyclerview.SwipeRecyclerView
 import me.hgj.jetpackmvvm.demo.R
 import me.hgj.jetpackmvvm.demo.app.util.SettingUtil
 

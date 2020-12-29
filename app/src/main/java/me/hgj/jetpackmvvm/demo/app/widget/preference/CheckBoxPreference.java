@@ -14,9 +14,7 @@
  * limitations under the License.
  */
 
-package me.hgj.jetpackmvvm.demo.app.weight.preference;
-
-import static androidx.annotation.RestrictTo.Scope.LIBRARY;
+package me.hgj.jetpackmvvm.demo.app.widget.preference;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -26,13 +24,16 @@ import android.view.View;
 import android.view.accessibility.AccessibilityManager;
 import android.widget.Checkable;
 import android.widget.CompoundButton;
-import me.hgj.jetpackmvvm.demo.R;
-import me.hgj.jetpackmvvm.demo.app.util.SettingUtil;
 
 import androidx.annotation.RestrictTo;
 import androidx.core.content.res.TypedArrayUtils;
 import androidx.preference.PreferenceViewHolder;
 import androidx.preference.TwoStatePreference;
+
+import me.hgj.jetpackmvvm.demo.R;
+import me.hgj.jetpackmvvm.demo.app.util.SettingUtil;
+
+import static androidx.annotation.RestrictTo.Scope.LIBRARY;
 
 @SuppressLint("RestrictedApi")
 public class CheckBoxPreference extends TwoStatePreference {

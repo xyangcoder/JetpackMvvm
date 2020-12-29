@@ -3,7 +3,7 @@ package me.hgj.jetpackmvvm.demo.ui.adapter
 import com.chad.library.adapter.base.BaseQuickAdapter
 import com.chad.library.adapter.base.viewholder.BaseViewHolder
 import me.hgj.jetpackmvvm.demo.R
-import me.hgj.jetpackmvvm.demo.app.weight.preference.MyColorCircleView
+import me.hgj.jetpackmvvm.demo.app.widget.preference.MyColorCircleView
 import me.hgj.jetpackmvvm.demo.data.model.enums.TodoType
 
 /**

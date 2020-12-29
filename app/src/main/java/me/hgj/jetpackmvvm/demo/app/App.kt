@@ -10,9 +10,9 @@ import com.tencent.mmkv.MMKV
 import me.hgj.jetpackmvvm.base.BaseApp
 import me.hgj.jetpackmvvm.demo.BuildConfig
 import me.hgj.jetpackmvvm.demo.app.ext.getProcessName
-import me.hgj.jetpackmvvm.demo.app.weight.loadCallBack.EmptyCallback
-import me.hgj.jetpackmvvm.demo.app.weight.loadCallBack.ErrorCallback
-import me.hgj.jetpackmvvm.demo.app.weight.loadCallBack.LoadingCallback
+import me.hgj.jetpackmvvm.demo.app.widget.loadCallBack.EmptyCallback
+import me.hgj.jetpackmvvm.demo.app.widget.loadCallBack.ErrorCallback
+import me.hgj.jetpackmvvm.demo.app.widget.loadCallBack.LoadingCallback
 import me.hgj.jetpackmvvm.demo.ui.activity.ErrorActivity
 import me.hgj.jetpackmvvm.demo.ui.activity.WelcomeActivity
 import me.hgj.jetpackmvvm.ext.util.jetpackMvvmLog

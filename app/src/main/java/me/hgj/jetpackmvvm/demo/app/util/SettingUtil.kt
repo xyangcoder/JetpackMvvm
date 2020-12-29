@@ -15,7 +15,7 @@ import com.blankj.utilcode.util.Utils
 import com.kingja.loadsir.core.LoadService
 import com.tencent.mmkv.MMKV
 import me.hgj.jetpackmvvm.demo.R
-import me.hgj.jetpackmvvm.demo.app.weight.loadCallBack.LoadingCallback
+import me.hgj.jetpackmvvm.demo.app.widget.loadCallBack.LoadingCallback
 import java.lang.reflect.InvocationTargetException
 import kotlin.math.roundToInt
 

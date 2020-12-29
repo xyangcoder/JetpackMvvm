@@ -8,8 +8,7 @@ import kotlinx.android.synthetic.main.include_viewpager.*
 import me.hgj.jetpackmvvm.demo.R
 import me.hgj.jetpackmvvm.demo.app.base.BaseFragment
 import me.hgj.jetpackmvvm.demo.app.ext.*
-import me.hgj.jetpackmvvm.demo.app.weight.loadCallBack.ErrorCallback
-import me.hgj.jetpackmvvm.demo.data.model.bean.ClassifyResponse
+import me.hgj.jetpackmvvm.demo.app.widget.loadCallBack.ErrorCallback
 import me.hgj.jetpackmvvm.demo.databinding.FragmentViewpagerBinding
 import me.hgj.jetpackmvvm.demo.viewmodel.request.RequestPublicNumberViewModel
 import me.hgj.jetpackmvvm.ext.parseState

@@ -1,4 +1,4 @@
-package me.hgj.jetpackmvvm.demo.app.weight.loadCallBack
+package me.hgj.jetpackmvvm.demo.app.widget.loadCallBack
 
 import android.content.Context
 import android.view.View

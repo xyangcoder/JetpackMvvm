@@ -5,7 +5,7 @@ import com.chad.library.adapter.base.viewholder.BaseViewHolder
 import me.hgj.jetpackmvvm.demo.R
 import me.hgj.jetpackmvvm.demo.app.ext.setAdapterAnimation
 import me.hgj.jetpackmvvm.demo.app.util.SettingUtil
-import me.hgj.jetpackmvvm.demo.app.weight.customview.CollectView
+import me.hgj.jetpackmvvm.demo.app.widget.customview.CollectView
 import me.hgj.jetpackmvvm.demo.data.model.bean.CollectUrlResponse
 import me.hgj.jetpackmvvm.ext.util.toHtml
 

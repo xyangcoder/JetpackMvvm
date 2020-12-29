@@ -1,4 +1,4 @@
-package me.hgj.jetpackmvvm.demo.app.weight.customview
+package me.hgj.jetpackmvvm.demo.app.widget.customview
 
 import android.content.Context
 import android.util.AttributeSet
