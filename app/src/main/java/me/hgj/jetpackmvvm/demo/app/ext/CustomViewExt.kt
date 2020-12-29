@@ -35,11 +35,6 @@ import me.hgj.jetpackmvvm.demo.app.widget.loadCallBack.ErrorCallback
 import me.hgj.jetpackmvvm.demo.app.widget.loadCallBack.LoadingCallback
 import me.hgj.jetpackmvvm.demo.app.widget.recyclerview.DefineLoadMoreView
 import me.hgj.jetpackmvvm.demo.app.widget.viewpager.ScaleTransitionPagerTitleView
-import me.hgj.jetpackmvvm.demo.ui.fragment.home.HomeFragment
-import me.hgj.jetpackmvvm.demo.ui.fragment.me.MeFragment
-import me.hgj.jetpackmvvm.demo.ui.fragment.project.ProjectFragment
-import me.hgj.jetpackmvvm.demo.ui.fragment.publicNumber.PublicNumberFragment
-import me.hgj.jetpackmvvm.demo.ui.fragment.tree.TreeArrFragment
 import me.hgj.jetpackmvvm.ext.util.toHtml
 import net.lucode.hackware.magicindicator.MagicIndicator
 import net.lucode.hackware.magicindicator.buildins.UIUtil
@@ -317,39 +312,6 @@ fun ViewPager2.init(
     adapter = object : FragmentStateAdapter(fragment) {
         override fun createFragment(position: Int) = fragments[position]
         override fun getItemCount() = fragments.size
-    }
-    return this
-}
-
-fun ViewPager2.initMain(fragment: Fragment): ViewPager2 {
-    //是否可滑动
-    this.isUserInputEnabled = false
-    this.offscreenPageLimit = 5
-    //设置适配器
-    adapter = object : FragmentStateAdapter(fragment) {
-        override fun createFragment(position: Int): Fragment {
-            when (position) {
-                0 -> {
-                    return HomeFragment()
-                }
-                1 -> {
-                    return ProjectFragment()
-                }
-                2 -> {
-                    return TreeArrFragment()
-                }
-                3 -> {
-                    return PublicNumberFragment()
-                }
-                4 -> {
-                    return MeFragment()
-                }
-                else -> {
-                    return HomeFragment()
-                }
-            }
-        }
-        override fun getItemCount() = 5
     }
     return this
 }

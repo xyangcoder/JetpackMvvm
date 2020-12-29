@@ -17,7 +17,6 @@ import me.hgj.jetpackmvvm.demo.databinding.FragmentLoginBinding
 import me.hgj.jetpackmvvm.demo.viewmodel.request.RequestLoginRegisterViewModel
 import me.hgj.jetpackmvvm.demo.viewmodel.state.LoginRegisterViewModel
 import me.hgj.jetpackmvvm.ext.nav
-import me.hgj.jetpackmvvm.ext.navigateAction
 import me.hgj.jetpackmvvm.ext.parseState
 
 /**
@@ -82,7 +81,7 @@ class LoginFragment : BaseFragment<LoginRegisterViewModel, FragmentLoginBinding>
 
         fun goRegister() {
             hideSoftKeyboard(activity)
-            nav().navigateAction(R.id.action_loginFragment_to_registerFrgment)
+//            nav().navigateAction(R.id.action_loginFragment_to_registerFrgment)
         }
 
         var onCheckedChangeListener =

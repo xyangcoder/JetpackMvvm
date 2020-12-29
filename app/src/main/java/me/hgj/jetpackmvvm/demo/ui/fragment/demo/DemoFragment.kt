@@ -8,7 +8,6 @@ import me.hgj.jetpackmvvm.demo.app.ext.initClose
 import me.hgj.jetpackmvvm.demo.databinding.FragmentDemoBinding
 import me.hgj.jetpackmvvm.demo.viewmodel.state.DemoViewModel
 import me.hgj.jetpackmvvm.ext.nav
-import me.hgj.jetpackmvvm.ext.navigateAction
 
 /**放一些示例，目前只有 文件下载示例 后面想到什么加什么，作者那个比很懒，佛性添加
  * @author : hgj
@@ -30,12 +29,12 @@ class DemoFragment : BaseFragment<DemoViewModel, FragmentDemoBinding>() {
     inner class ProxyClick {
         fun download() {
             //测试一下 普通的下载
-            nav().navigateAction(R.id.action_demoFragment_to_downLoadFragment)
+//            nav().navigateAction(R.id.action_demoFragment_to_downLoadFragment)
         }
 
         fun downloadLibrary() {
             //测试一下利用三方库下载
-            nav().navigateAction(R.id.action_demoFragment_to_downLoadLibraryFragment)
+//            nav().navigateAction(R.id.action_demoFragment_to_downLoadLibraryFragment)
         }
     }
 

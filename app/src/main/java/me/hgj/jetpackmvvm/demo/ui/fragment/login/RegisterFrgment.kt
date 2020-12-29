@@ -16,7 +16,6 @@ import me.hgj.jetpackmvvm.demo.databinding.FragmentRegisterBinding
 import me.hgj.jetpackmvvm.demo.viewmodel.request.RequestLoginRegisterViewModel
 import me.hgj.jetpackmvvm.demo.viewmodel.state.LoginRegisterViewModel
 import me.hgj.jetpackmvvm.ext.nav
-import me.hgj.jetpackmvvm.ext.navigateAction
 import me.hgj.jetpackmvvm.ext.parseState
 
 /**
@@ -51,7 +50,7 @@ class RegisterFrgment : BaseFragment<LoginRegisterViewModel, FragmentRegisterBin
                     CacheUtil.setIsLogin(true)
                     CacheUtil.setUser(it)
                     appViewModel.userinfo.value = it
-                    nav().navigateAction(R.id.action_registerFrgment_to_mainFragment)
+//                    nav().navigateAction(R.id.action_registerFrgment_to_mainFragment)
                 }, {
                     showMessage(it.errorMsg)
                 })
