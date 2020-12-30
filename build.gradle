@@ -5,19 +5,13 @@ buildscript {
         maven { url "https://maven.aliyun.com/nexus/content/groups/public"}
         maven { url "https://maven.aliyun.com/repository/google"}
         maven { url "https://maven.aliyun.com/repository/gradle-plugin"}
-        google()
-        jcenter()
         maven {
             url 'https://jitpack.io'
-        }
-        maven {
-            url 'https://dl.bintray.com/novoda-oss/snapshots/'
         }
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:4.1.1'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
-        classpath "com.github.panpf.bintray-publish:bintray-publish:1.0.0"
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
     }
@@ -27,8 +21,7 @@ allprojects {
     repositories {
         maven { url "https://maven.aliyun.com/nexus/content/groups/public"}
         maven { url "https://maven.aliyun.com/repository/google"}
-        google()
-        jcenter()
+        maven { url "https://maven.aliyun.com/repository/gradle-plugin"}
         maven {
             url 'https://jitpack.io'
         }
